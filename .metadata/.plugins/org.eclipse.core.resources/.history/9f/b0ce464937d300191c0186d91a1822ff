@@ -1,0 +1,13 @@
+package Bai4;
+
+public class main{
+	public static void main(String[] args) {
+		Nhapab ab =new Nhapab();
+		ab.start();
+		synchronized (ab)
+		{
+			ab.wait();
+		}
+
+	}
+}

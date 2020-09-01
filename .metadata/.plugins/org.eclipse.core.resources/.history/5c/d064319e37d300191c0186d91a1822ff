@@ -1,0 +1,21 @@
+package Bai4;
+
+public class main{
+	public static void main(String[] args) throws InterruptedException {
+		Nhapab ab =new Nhapab();
+		ab.start();
+		synchronized (ab)
+		{
+			ab.wait();
+		}
+		if (Nhapab.a >= 2 && a<=Nhapab.b) {
+            System.out.print(2);
+        }
+        for (int i = 3; i < n; i+=2) {
+            if (isPrimeNumber(i)) {
+                System.out.print(" " + i);
+            }
+        }
+
+	}
+}

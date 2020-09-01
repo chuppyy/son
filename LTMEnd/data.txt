@@ -1,0 +1,6 @@
+123,nguyen van a,1999,17cntt3,b
+124,nguyen thi b,1999,17cntt3,c
+125,nguyen thi c,1999,17cntt3,a
+3131,le cui bap,1999,17cntt3,ba
+21,son,1999,17c3,e
+1234,le,1999,16,a
